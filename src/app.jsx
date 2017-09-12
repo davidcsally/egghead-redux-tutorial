@@ -8,7 +8,10 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <TodoForm />
+        <TodoForm
+          currentTodo={this.props.currentTodo}
+          changeCurrent={this.props.changeCurrent}
+        />
         <TodoList todos={this.props.todos} />
       </div>
     );
