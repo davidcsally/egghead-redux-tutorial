@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
+import { connect } from 'react-redux';
 import style from './app.css';
 import TodoForm from './components/TodoForm.jsx';
 import TodoList from './components/TodoList.jsx';
@@ -18,4 +19,6 @@ class App extends Component {
   }
 }
 
-export default App;
+const mapStateToProps = (state) => state;
+const ConnectedApp = connect(mapStateToProps)(App);
+export default ConnectedApp;
