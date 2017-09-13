@@ -5,11 +5,12 @@ import registerServiceWorker from './registerServiceWorker';
 import store from './store';
 import { Provider } from 'react-redux';
 
-
+/** Wrap app in provider component to give access to the store */
 ReactDOM.render(
-  <Provider store={store}>
+  <Provider store={store}> 
     <App />
   </Provider>,
-  document.getElementById('content'));
+  document.getElementById('content')
+);
 
 registerServiceWorker();

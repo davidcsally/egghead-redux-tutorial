@@ -8,22 +8,47 @@
     {
       "id": 2,
       "name": "start server",
-      "isComplete": false
+      "isComplete": true
     },
     {
       "id": 3,
       "name": "Load data into app",
-      "isComplete": false
+      "isComplete": true
     },
     {
       "id": 4,
       "name": "Add records",
-      "isComplete": false
+      "isComplete": true
     },
     {
       "id": 5,
       "name": "update records",
       "isComplete": false
+    },
+    {
+      "name": "this is a new todo",
+      "isComplete": false,
+      "id": 6
+    },
+    {
+      "name": "Test Dev Tools",
+      "isComplete": true,
+      "id": 7
+    },
+    {
+      "name": "finish this tutorial",
+      "isComplete": true,
+      "id": 8
+    },
+    {
+      "name": "hello",
+      "isComplete": false,
+      "id": 9
+    },
+    {
+      "name": "hello again",
+      "isComplete": true,
+      "id": 10
     }
   ]
 }

@@ -27,6 +27,6 @@ class TodoForm extends Component {
 }
 
 export default connect(
-  (state) => ({ currentTodo: state.currentTodo }), // map state to props shorthand
+  (state) => ({ currentTodo: state.todo.currentTodo }), // map state to props shorthand
   { updateCurrent, saveTodo } // map dispatch to props shorthand
 )(TodoForm);

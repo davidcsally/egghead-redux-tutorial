@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "reactTutorial =============",
   "scripts": {
-    "build": "webpack -p",
+    "build": "webpack -w",
     "start": "webpack-dev-server --hot --colors --progress --watch --inline",
     "test": "mocha --compilers js:babel-core/register --timeout 8000 test/",
     "dev-server": "json-server -p 8081 db.json"

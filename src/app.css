@@ -1,11 +1,9 @@
 .App {
   text-align: center;
-}
-
-.Todo-app {
-  padding-top: 20px;
-  display: inline-block;
-  text-align: left;
+  margin: 0 auto;  
+  padding-top: 35px;
+  display: inline;  
+  
 }
 
 input {
@@ -18,4 +16,33 @@ ul {
 
 li {
   list-style-type: none;
+}
+
+.message {
+  background-color: #61DAFB;
+  color: white;
+  border: 1px solid #61DAFB;
+  text-align: center;
+  width: 200px;
+  /* left: 50%; */
+  top: 200px;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+li span.delete-item {
+  visibility: hidden;
+}
+
+li:hover span.delete-item {
+  visibility: visible;
+}
+
+span.delete-item button {
+  background: none;
+  border: none;
+  font-size: 1 em;
+  font-weight: bold;
+  text-decoration: none;
+  color: red;
 }
